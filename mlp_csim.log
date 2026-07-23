@@ -1,0 +1,11 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../../HAAI_Lab7_source/mlp_FP/mlp_tb.cpp in debug mode
+   Compiling ../../../../../HAAI_Lab7_source/mlp_FP/mlp.cpp in debug mode
+   Generating csim.exe
+===========================================
+>> Hardware Predict Output: 0
+===========================================
+TEST PASSED: Simulation finished!
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************
