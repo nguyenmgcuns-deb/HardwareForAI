@@ -49,26 +49,28 @@ using namespace std;
 
 #include "neuron.h"
 
+// replace __FILL_ME__ with your information
+ 
 int main()
 {
-    // Double Implementation
-    double y, w, b;
-    double x;
 
-    int i;
-    // Giá trị weight và bias giữ nguyên
-    w = 445.3212585449219;
-    b = 152.26878356933594;
+	int i;
+	neuron_fxp_t w_fxp = 445.3212585449219 ;
+	neuron_fxp_t b_fxp = 152.26878356933594 ;
+	neuron_fxp_t y_fxp ;
+	neuron_fxp_t x_fxp;
 
-    double data_in[11] = {-0.1, -0.07, -0.04, -0.01, 0.02, 0.05, 0.08, 0.11, 0.14, 0.17, 0.2};
+	neuron_fxp_t data_in_fxp[11] = {-0.1, -0.07, -0.04, -0.01, 0.02, 0.05, 0.08, 0.11, 0.14, 0.17, 0.2};
 
-    for (i = 0; i < 11; i++){
-        x = data_in[i];
-        y = neuron(w, x, b);
+	cout << "Neuron Weight Fixed Point = " << w_fxp <<"\n";
+	cout <<" Neuron Bias Fixed Point = " << b_fxp <<"\n";
 
-        // Sử dụng %lf để in định dạng double
-        printf("%d Neuron Output Floating Point with double precision: %lf \n", i, y);
-    }
+	for (i = 0; i <11; i++){
+		x_fxp = data_in_fxp[i];
+		y_fxp  = neuron(w_fxp, x_fxp , b_fxp);
+		cout << "i = " << i << " Neuron Output Fixed Point = " << y_fxp <<"\n";
+		cout << "i = " << i << " Data Input Fixed Point = " << x_fxp <<"\n";
+		}
 
-    return 0;
+	 return 0;
 }
