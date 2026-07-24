@@ -1,0 +1,18 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../../source/neuron_FP/neuron_tb.cpp in debug mode
+   Compiling ../../../../../source/neuron_FP/neuron.cpp in debug mode
+   Generating csim.exe
+0 Neuron Output Floating Point with double precision: 107.736658 
+1 Neuron Output Floating Point with double precision: 121.096295 
+2 Neuron Output Floating Point with double precision: 134.455933 
+3 Neuron Output Floating Point with double precision: 147.815571 
+4 Neuron Output Floating Point with double precision: 161.175209 
+5 Neuron Output Floating Point with double precision: 174.534846 
+6 Neuron Output Floating Point with double precision: 187.894484 
+7 Neuron Output Floating Point with double precision: 201.254122 
+8 Neuron Output Floating Point with double precision: 214.613760 
+9 Neuron Output Floating Point with double precision: 227.973398 
+10 Neuron Output Floating Point with double precision: 241.333035 
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************
