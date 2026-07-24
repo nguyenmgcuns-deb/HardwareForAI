@@ -1,0 +1,12 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../../HAAI_lab2_source/code/adder/adder_tb.cpp in debug mode
+   Compiling ../../../../../HAAI_lab2_source/code/adder/adder.cpp in debug mode
+   Generating csim.exe
+0 Adder Output : 13 
+1 Adder Output : 14 
+2 Adder Output : 15 
+3 Adder Output : 16 
+4 Adder Output : 17 
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************
