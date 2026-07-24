@@ -1,0 +1,31 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../../source/neuron_FxP/neuron_tb.cpp in debug mode
+   Compiling ../../../../../source/neuron_FxP/neuron.cpp in debug mode
+   Generating csim.exe
+Neuron Weight Fixed Point = -66.6797
+ Neuron Bias Fixed Point = 152.268
+i = 0 Neuron Output Fixed Point = 159.039
+i = 0 Data Input Fixed Point = -0.101563
+i = 1 Neuron Output Fixed Point = 156.955
+i = 1 Data Input Fixed Point = -0.0703125
+i = 2 Neuron Output Fixed Point = 155.002
+i = 2 Data Input Fixed Point = -0.0410156
+i = 3 Neuron Output Fixed Point = 153.049
+i = 3 Data Input Fixed Point = -0.0117188
+i = 4 Neuron Output Fixed Point = 150.965
+i = 4 Data Input Fixed Point = 0.0195313
+i = 5 Neuron Output Fixed Point = 149.012
+i = 5 Data Input Fixed Point = 0.0488281
+i = 6 Neuron Output Fixed Point = 147.057
+i = 6 Data Input Fixed Point = 0.078125
+i = 7 Neuron Output Fixed Point = 144.973
+i = 7 Data Input Fixed Point = 0.109375
+i = 8 Neuron Output Fixed Point = 143.02
+i = 8 Data Input Fixed Point = 0.138672
+i = 9 Neuron Output Fixed Point = 140.936
+i = 9 Data Input Fixed Point = 0.169922
+i = 10 Neuron Output Fixed Point = 138.982
+i = 10 Data Input Fixed Point = 0.199219
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************
