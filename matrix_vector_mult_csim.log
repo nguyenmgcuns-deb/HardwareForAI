@@ -1,0 +1,19 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling(apcc) ../../../../../HAAI_lab2_source/code/mat_mul/matmul_tb.c in debug mode
+INFO: [HLS 200-10] Running 'E:/Vivado/2019.1/bin/unwrapped/win64.o/apcc.exe'
+INFO: [HLS 200-10] For user 'nguye' on host 'laptop-gp5d4fvu' (Windows NT_amd64 version 6.2) on Fri Jul 24 13:28:52 +0200 2026
+INFO: [HLS 200-10] In directory 'D:/SumSem_Pots/Hardware/Lab/Lab2/prj_vmm/solution1/csim/build'
+INFO: [APCC 202-3] Tmp directory is apcc_db
+INFO: [APCC 202-1] APCC is done.
+   Compiling(apcc) ../../../../../HAAI_lab2_source/code/mat_mul/matmul.c in debug mode
+INFO: [HLS 200-10] Running 'E:/Vivado/2019.1/bin/unwrapped/win64.o/apcc.exe'
+INFO: [HLS 200-10] For user 'nguye' on host 'laptop-gp5d4fvu' (Windows NT_amd64 version 6.2) on Fri Jul 24 13:28:57 +0200 2026
+INFO: [HLS 200-10] In directory 'D:/SumSem_Pots/Hardware/Lab/Lab2/prj_vmm/solution1/csim/build'
+INFO: [APCC 202-3] Tmp directory is apcc_db
+INFO: [APCC 202-1] APCC is done.
+   Generating csim.exe
+Result vector: 
+20 47 74 
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************
